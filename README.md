@@ -2,7 +2,7 @@
 
 Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha Elixir
 
-![ELIXIR](/readme-folder/root/1-NLW05-2560x1080.jpg)
+![ELIXIR](/.readme-folder/root/1-NLW05-2560x1080.jpg)
 
 ## Configurações de ambiente
 
