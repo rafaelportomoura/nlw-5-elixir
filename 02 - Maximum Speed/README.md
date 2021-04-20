@@ -107,6 +107,8 @@ yarn typeorm migration:create -n NomeDaMigration
 
 Exemplo de migration:
 
+`1618925136487-CreateSettings.ts`
+
 ```ts
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
@@ -203,6 +205,8 @@ Na pasta `src` crie a pasta `entities` em que cada arquivo .ts dentro dessa past
 
 Exemplo de entidade:
 
+`settings.ts`:
+
 ```ts
 import { Entity, Column, CreateDateColumn, PrimaryColumn, UpdateDateColumn } from 'typeorm';
 import { v4 as uuid } from 'uuid';
@@ -216,7 +220,7 @@ class Setting {
   username: string;
 
   @Column()
-  char: boolean;
+  chat: boolean;
 
   @UpdateDateColumn()
   updated_at: Date;
@@ -235,3 +239,17 @@ export { Setting };
 ```
 
 ---
+
+## Repositórios
+
+Estrutura de uma classe responsável pela manipulação de dados da aplicação. Eles vão ser responsáveis entre fazer a comunicação entre a entidade e a tabela do banco de dados.
+
+Na pasta `src` crie uma pasta chamada `repositories` onde dentro dela ficará todos os repositórios
+
+Exemplo de repositório:
+
+`SettingsRepository.ts`:
+
+```ts
+
+```

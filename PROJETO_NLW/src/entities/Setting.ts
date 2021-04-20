@@ -10,7 +10,7 @@ class Setting {
   username: string;
 
   @Column()
-  char: boolean;
+  chat: boolean;
 
   @UpdateDateColumn()
   updated_at: Date;
