@@ -1,6 +1,6 @@
-# NLW 5 - Trilha Elixir
+# NLW 5 - Trilha Node
 
-Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha Elixir
+Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha Node
 
 ![ELIXIR](/.readme-folder/root/1-NLW05-2560x1080.jpg)
 
