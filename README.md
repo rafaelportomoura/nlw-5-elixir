@@ -1,4 +1,4 @@
-# NLW 5 - Trilha Elixir
+# NLW 5 - Trilha Node
 
 Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha Elixir
 
