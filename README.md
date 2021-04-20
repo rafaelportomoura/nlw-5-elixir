@@ -78,6 +78,13 @@ Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha
     Publisher: charalampos karypidis  
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
+11. Name: **Path Intellisense**  
+    Id: christian-kohler.path-intellisense  
+    Description: Visual Studio Code plugin that autocompletes filenames  
+    Version: 2.3.0  
+    Publisher: Christian Kohler  
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+
 ### Settings.json VsCode
 
 ```js
