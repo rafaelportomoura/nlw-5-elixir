@@ -85,6 +85,13 @@ Repositório destinado a guardar as anotações e códigos do evento NLW5 trilha
     Publisher: Christian Kohler  
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 
+12. Name: **SQLite**  
+    Id: alexcvzz.vscode-sqlite  
+    Description: Explore and query SQLite databases.  
+    Version: 0.12.0  
+    Publisher: alexcvzz  
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
 ### Settings.json VsCode
 
 ```js
