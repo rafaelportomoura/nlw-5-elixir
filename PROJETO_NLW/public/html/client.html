@@ -44,11 +44,7 @@
         <!-- <div class="line"></div> -->
       </div>
       <div class="message_send">
-        <input
-          type="text"
-          placeholder="Digite sua mensagem aqui"
-          id="message_user"
-        />
+        <input type="text" placeholder="Digite sua mensagem aqui" id="message_user" />
         <div class="send_message_button" id="send_message_button">
           <img src="/images/send.png" />
         </div>
@@ -99,29 +95,29 @@
 
   <script>
     onLoad();
-    const chat = document.getElementById("chat_help");
+    const chat = document.getElementById('chat_help');
 
     function onLoad() {
-      // fetch("http://localhost:3333/settings/admin").then((result) =>
-      //   result.json().then((response) => {
-      //     const buttonSupport = document.getElementById("btn_support");
-      //     if (!response.chat) {
-      //       buttonSupport.style.display = "none";
-      //     }
-      //   })
-      // );
+      fetch('http://localhost:3333/settings/admin').then((result) =>
+        result.json().then((response) => {
+          const buttonSupport = document.getElementById('btn_support');
+          if (!response.chat) {
+            buttonSupport.style.display = 'none';
+          }
+        })
+      );
     }
 
     function openChat() {
-      chat.style.display = "block";
+      chat.style.display = 'block';
     }
 
     function closeChat() {
-      chat.style.display = "none";
+      chat.style.display = 'none';
     }
 
     function keyUpTextHelp(event) {
-      const charac_remaining = document.getElementById("charac_remaining");
+      const charac_remaining = document.getElementById('charac_remaining');
       const length_text = event.target.value.length;
       charac_remaining.innerHTML = Number(250) - Number(length_text);
     }
