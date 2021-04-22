@@ -123,3 +123,9 @@ app.get('/pages/client', (request, response) => {
   return response.render('html/client.html');
 });
 ```
+
+Instalando o socket.io-client
+
+```bash
+yarn add socket.io-client
+```
