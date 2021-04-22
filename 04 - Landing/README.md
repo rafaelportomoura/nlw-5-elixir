@@ -102,3 +102,24 @@ app.use(routes);
 
 http.listen(3333, () => console.log(`Server is running on port 3333`));
 ```
+
+---
+
+## Renderizando front end
+
+Instalar a biblioteca ejs
+
+```bash
+yarn add ejs
+```
+
+```ts
+app.use(express.static(path.join(__dirname, '..', 'public')));
+app.set('views', path.join(__dirname, '..', 'public'));
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+
+app.get('/pages/client', (request, response) => {
+  return response.render('html/client.html');
+});
+```
